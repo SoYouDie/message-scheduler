@@ -1,0 +1,21 @@
+{
+  "name": "message-echo-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "./node_modules/nodemon/bin/nodemon.js index.js"
+  },
+  "author": "Roman Boiko <roman.bv20@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "ioredis": "^4.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
